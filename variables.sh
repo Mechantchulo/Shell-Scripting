@@ -1,7 +1,5 @@
 #!/bin/bash
 
-word="Awesome"
+now=$(date)
 
-echo "Linux is $word"
-echo "Food is $word"
-echo "You are $word"
+echo "The system date and time is: $now"
